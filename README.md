@@ -2,8 +2,9 @@
 
 Generate meme using React Fiber.
 
-<img src="https://github.com/exced/react-meme-renderer/blob/master/example/meme.jpg" width="100" height="130">
-<img src="https://github.com/exced/react-meme-renderer/blob/master/example/my_react_meme.jpg" width="100" height="130">
+| ![Input](https://github.com/exced/react-meme-renderer/blob/master/example/meme.jpg) | ![Output](https://github.com/exced/react-meme-renderer/blob/master/example/my_react_meme.jpg) |
+| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
+|                                         in                                          |                                              out                                              |
 
 ## Example
 
