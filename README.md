@@ -2,12 +2,6 @@
 
 Generate meme using React Fiber.
 
-| ![Input](https://github.com/exced/react-meme-renderer/blob/master/example/meme.jpg) | ![Output](https://github.com/exced/react-meme-renderer/blob/master/example/my_react_meme.jpg) |
-| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
-|                                         in                                          |                                              out                                              |
-
-## Example
-
 ```javascript
 class App extends Component {
 	render() {
@@ -29,6 +23,10 @@ class App extends Component {
 render(<App />, `${__dirname}/my_react_meme.jpg`);
 ```
 
+| ![Input](https://github.com/exced/react-meme-renderer/blob/master/example/meme.jpg) | ![Output](https://github.com/exced/react-meme-renderer/blob/master/example/my_react_meme.jpg) |
+| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
+|                                         in                                          |                                              out                                              |
+
 ## Getting started
 
 This renderer depends on [node-canvas](https://github.com/Automattic/node-canvas). Check the website to install the dependencies.
@@ -47,11 +45,11 @@ render(App, generateAtPath)
 
 ### Image
 
-| key    | type   | required | default | description              |
-| ------ | ------ | -------- | ------- | ------------------------ |
-| src    | string | yes      |         | src file path            |
-| width  | number | yes      |         | width of generated meme  |
-| height | number | yes      |         | height of generated meme |
+| key    | type   | required | default | description   |
+| ------ | ------ | -------- | ------- | ------------- |
+| src    | string | yes      |         | src file path |
+| width  | number | yes      |         | width         |
+| height | number | yes      |         | height        |
 
 ### Text
 
