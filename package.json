@@ -1,0 +1,35 @@
+{
+	"name": "react-meme-renderer",
+	"version": "1.0.0",
+	"description": "Meme renderer for React",
+	"main": "index.js",
+	"author": "Thomas Barras <thomas.barras26@gmail.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8.1.2"
+	},
+	"dependencies": {
+		"canvas": "^2.0.0-alpha.12",
+		"react": "^16.4.0",
+		"react-reconciler": "^0.11.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"jest": "^21.2.1"
+	},
+	"scripts": {
+		"build": "NODE_ENV=production ./node_modules/.bin/babel src -d build",
+		"example": "./node_modules/.bin/babel-node ./example/App.js",
+		"test": "./node_modules/.bin/jest",
+		"test:watch": "./node_modules/.bin/jest --watch"
+	},
+	"jest": {
+		"modulePathIgnorePatterns": [
+			"/__tests__/utils/"
+		]
+	}
+}
